@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\abrud\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\abrud\Desktop\android-navigation-drawer-final-master\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_50312b6a11eedfc265291ed3bbb3166a36fdcfd0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abrud\Desktop\android-navigation-drawer-final-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\abrud\Desktop\android-navigation-drawer-final-master\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_4a615226dde7eaf7a547f3edf24e5cfc7d4a3632.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abrud\Desktop\android-navigation-drawer-final-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\abrud\Desktop\android-navigation-drawer-final-master\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-21.0.3_7bc64ac6c3237789a839236c9af614a0aeee4cec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\abrud\Desktop\android-navigation-drawer-final-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\abrud\Desktop\android-navigation-drawer-final-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_43cf819c06ad5707030759040d937efbc82ccba8.jar" />
+    </item>
+
+</items>
