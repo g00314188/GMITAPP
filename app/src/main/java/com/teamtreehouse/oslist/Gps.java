@@ -25,7 +25,7 @@ public class Gps extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_gps);
 
         mDrawerList = (ListView)findViewById(R.id.navList);mDrawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
         mActivityTitle = getTitle().toString();
@@ -45,17 +45,25 @@ public class Gps extends ActionBarActivity {
         mDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if(position == 1)
+                if(position == 0)
                 {
 
                     Intent myIntent = new Intent(Gps.this, MainActivity.class);
                     startActivityForResult(myIntent, 0);
                 }
 
-                if(position == 2)
+                if(position == 1)
                 {
 
-                    Intent myIntent =  new Intent(Gps.this, Gps.class);
+                    Intent myIntent = new Intent(Gps.this, Planner.class);
+                    startActivityForResult(myIntent, 0);
+                }
+
+
+                if(position == 3)
+                {
+
+                    Intent myIntent =  new Intent(Gps.this, v_tour.class);
                     startActivityForResult(myIntent, 0);
                 }
             }

@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Gps" />
-        <activity android:name=".Planner"></activity>
+        <activity android:name=".Planner" />
+        <activity android:name=".v_tour"></activity>
     </application>
 
 </manifest>

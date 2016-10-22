@@ -2,40 +2,58 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
+        is-multidex="true"
         jar="C:\Users\abrud\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\Users\abrud\Desktop\android-navigation-drawer-final-master\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_50312b6a11eedfc265291ed3bbb3166a36fdcfd0.jar" />
+        <dex dex="C:\Users\abrud\Desktop\gmit app\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-21.0.3_50312b6a11eedfc265291ed3bbb3166a36fdcfd0\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\abrud\Desktop\android-navigation-drawer-final-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\abrud\Desktop\android-navigation-drawer-final-master\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_4a615226dde7eaf7a547f3edf24e5cfc7d4a3632.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\abrud\Desktop\android-navigation-drawer-final-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\abrud\Desktop\gmit app\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\Users\abrud\Desktop\android-navigation-drawer-final-master\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-21.0.3_7bc64ac6c3237789a839236c9af614a0aeee4cec.jar" />
+        <dex dex="C:\Users\abrud\Desktop\gmit app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-21.0.3_958a633afe9c4f8dbc6ab2bc0dfcd09e641122ac\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\abrud\Desktop\android-navigation-drawer-final-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\abrud\Desktop\gmit app\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="034ff786805e417670aa90dacaba2ff370e58454">
+        <dex dex="C:\Users\abrud\Desktop\gmit app\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_19df1321752364d9b14702c2ed01bfaaea72059b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\abrud\Desktop\gmit app\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="21.1.2"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\abrud\Desktop\android-navigation-drawer-final-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_43cf819c06ad5707030759040d937efbc82ccba8.jar" />
+        <dex dex="C:\Users\abrud\Desktop\gmit app\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-21.0.3_73a4c33071399a9701665edbd875f284697488e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\abrud\Desktop\gmit app\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\abrud\Desktop\gmit app\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.3_3efae45944daefad6bd3377fab5173108ec8ca1c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\abrud\Desktop\gmit app\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e13aa0176f01d187dd65b1ce549b8c18b0b8b697">
+        <dex dex="C:\Users\abrud\Desktop\gmit app\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_211c61e7cd864a814993527292b744445cb0d795\classes.dex" />
     </item>
 
 </items>

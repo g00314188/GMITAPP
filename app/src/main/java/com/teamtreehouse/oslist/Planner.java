@@ -44,7 +44,7 @@ public class Planner extends ActionBarActivity {
         mDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if(position == 1)
+                if(position == 0)
                 {
 
                     Intent myIntent = new Intent(Planner.this, MainActivity.class);
@@ -54,7 +54,13 @@ public class Planner extends ActionBarActivity {
                 if(position == 2)
                 {
 
-                    Intent myIntent =  new Intent(Planner.this, Planner.class);
+                    Intent myIntent =  new Intent(Planner.this, Gps.class);
+                    startActivityForResult(myIntent, 0);
+                }
+                if(position == 3)
+                {
+
+                    Intent myIntent =  new Intent(Planner.this, v_tour.class);
                     startActivityForResult(myIntent, 0);
                 }
 

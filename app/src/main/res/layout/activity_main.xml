@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="Holy Operating Systems, Batdroid!"
+            android:text="Welcome to Gmit"
             android:textSize="24sp"
             android:gravity="center"
             android:layout_marginTop="100dp"/>
@@ -28,9 +28,12 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/batdroid"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"/>
+            android:src="@drawable/gmit"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="45dp"
+            android:layout_marginEnd="45dp" />
 
     </RelativeLayout>
 

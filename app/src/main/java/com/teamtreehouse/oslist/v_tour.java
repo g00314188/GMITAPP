@@ -2,9 +2,9 @@ package com.teamtreehouse.oslist;
 
 import android.content.Intent;
 import android.content.res.Configuration;
-import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -12,10 +12,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 
-
-public class MainActivity extends ActionBarActivity {
+public class v_tour extends ActionBarActivity {
 
     private ListView mDrawerList;
     private DrawerLayout mDrawerLayout;
@@ -46,23 +44,23 @@ public class MainActivity extends ActionBarActivity {
         mDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if(position == 0)
+                {
+
+                    Intent myIntent = new Intent(v_tour.this, MainActivity.class);
+                    startActivityForResult(myIntent, 0);
+                }
+
                 if(position == 1)
                 {
 
-                    Intent myIntent = new Intent(MainActivity.this, Planner.class);
+                    Intent myIntent =  new Intent(v_tour.this, Planner.class);
                     startActivityForResult(myIntent, 0);
                 }
-
                 if(position == 2)
                 {
 
-                    Intent myIntent =  new Intent(MainActivity.this, Gps.class);
-                    startActivityForResult(myIntent, 0);
-                }
-                if(position == 3)
-                {
-
-                    Intent myIntent =  new Intent(MainActivity.this, v_tour.class);
+                    Intent myIntent =  new Intent(v_tour.this, Gps.class);
                     startActivityForResult(myIntent, 0);
                 }
 
@@ -132,3 +130,4 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 }
+
